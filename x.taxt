@@ -1,0 +1,10 @@
+rm -rf .gits
+
+# Start fresh
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Coding-With-SouRav/Face_Recog_MODELS.git
+git push -u origin main
+rm -rf .git
